@@ -1,8 +1,8 @@
 /*
 Module pattern that returns the constructor
-@param id the SoundCloud id of the track
+Takes an id of the Spotify track as a string
 Example usage: 
-var track = new AUDIO.Track(123456);
+var track = new AUDIO.Track(123jkqarw);
 track.play();
 */
  
@@ -165,9 +165,3 @@ AUDIO.Track = (function () {
 	}
 
 })();
-/*
-var track1 = new AUDIO.Track('3vWacNioW8NvENyObBZ6Vn');
-setTimeout(function () {
-	track1.play();
-}, 3000);
-*/
